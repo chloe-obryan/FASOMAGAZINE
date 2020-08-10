@@ -21,14 +21,13 @@ You can try the live demo : [http://gentle-everglades-40337.herokuapp.com/](http
 
 ## Demo login info
 
-user: contact@milon.im | password: password
+user: admin@admin.com| password: password
 
 
 ## Installation
 
 ```
-git clone https://github.com/milon/laravel-blog.git blog
-cd blog
+
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -46,14 +45,4 @@ php artisan db:seed --class=DummyDataSeeder
 
 This projects exposes some API endpoints. You could request those endpoints with the `api_token` passed as query parameters, like this- `/api/tags?api_token=YOUR_API_KEY`. You can also pass the token as a Authorization Bearer token. The API key could be obtained from `/api/auth/token` endpoint. Available endpoints are-
 
-```
-/api/auth/token
-/api/auth/reset-password
-/api/auth/change-password
-
-/api/tags
-/api/categories
-/api/users     // only accessible by admin
-/api/posts
-```
 
