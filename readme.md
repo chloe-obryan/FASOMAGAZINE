@@ -1,25 +1,8 @@
-# Laravel Blog
 
-A simple blog for demonstration purpose. Based on Laravel 7.0
 
-## Requirements
 
-- Laravel 7.0
-- PHP >= 7.2.5
-- OpenSSL PHP Extension
-- PDO PHP Extension
-- Mbstring PHP Extension
-- Tokenizer PHP Extension
-- XML PHP Extension
-- Ctype PHP Extension
-- JSON PHP Extension
-- BCMath PHP Extension
 
-## Demo
-
-You can try the live demo : [http://gentle-everglades-40337.herokuapp.com/](http://gentle-everglades-40337.herokuapp.com/)
-
-## Demo login info
+## login info
 
 user: admin@admin.com| password: password
 
@@ -35,7 +18,6 @@ php artisan migrate
 php artisan db:seed
 ```
 
-If you want dummy data, then run this-
 
 ```
 php artisan db:seed --class=DummyDataSeeder
